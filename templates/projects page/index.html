@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=1080"> -->
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <title>Aryan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="header__container">
+        <div class="header">
+            <div class="header__headshotAndTitle">
+                <div class="header__headshot">
+                    <a href="index.html">
+                        <img src="assets/headshot.png" alt="icon" class="icon">
+                    </a>
+                </div>
+                <div class="project__title">
+                    <h1>FRC 2020 Robot</h1>
+                </div>
+            </div>
+            <nav class="nav center">
+                <ul class="nav__list center">
+                    <li class="nav__list-item">
+                        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+                            <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="link link--nav" href="#projects">All Projects</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="link link--nav" href="#skills">About</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="link link--nav" href="#contact">Resume</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="link link--nav" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="page">
+        <div class="projects">
+            <div class="project__titleBlock">
+                <div class="project__titleBlock__section">
+                    <div class="project__titleBlock__title">
+                        <h3>Course or Group</h3>
+                    </div>
+                    <div class="project__titleBlock__content">
+                        <p>TEAM/GROUP</p>
+                    </div>
+                </div>
+                <div class="project__titleBlock__section">
+                    <div class="project__titleBlock__title">
+                        <h3>Role</h3>
+                    </div>
+                    <div class="project__titleBlock__content">
+                        <p>PROJECT ROLE</p>
+                    </div>
+                </div>
+                <div class="project__titleBlock__content">
+                    <div class="project__titleBlock__title">
+                        <h3>Completed</h3>
+                    </div>
+                    <div class="project__titleBlock__content">
+                        <p>COMPLETION DATE</p>
+                    </div>
+                </div>
+                <div class="project__titleBlock__section">
+                    <div class="project__titleBlock__title">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="project__titleBlock__skills">
+                        <ul>
+                            <li class="project__titleBlock__skills">skill 1</li>
+                            <li class="project__titleBlock__skills">skill 2</li>
+                            <li class="project__titleBlock__skills">skill 3</li>
+                        </ul>
+                        <ul>
+                            <li class="project__titleBlock__skills">skill 4</li>
+                            <li class="project__titleBlock__skills">skill 5</li>
+                            <li class="project__titleBlock__skills">skill 6</li>
+                        </ul>
+                        <ul>
+                            <li class="project__titleBlock__skills">skill 7</li>
+                            <li class="project__titleBlock__skills">skill 8</li>
+                            <li class="project__titleBlock__skills">skill 9</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project__description">
+                <div class="project__description__section">
+                    <div class="project__description__title">
+                        <h2>Challenge</h2>
+                    </div>
+                    <div class="project__description__content">
+                        <p>ADD A PROJECT DESCRIPTION HERE: WHAT WAS THE GOAL OF THE PROJECT. WHAT WERE WE TRYING TO SOLVE.</p>
+                    </div>
+                    <div class="project__description__title">
+                        <h2>Contributions</h2>
+                    </div>
+                    <div class="project__description__content">
+                        <ul>
+                            <li class="contribution">
+                                Add the first contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                            <li class="contribution">
+                                Add the another contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                            <li class="contribution">
+                                Add the another contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                            <li class="contribution">
+                                Add the another contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                            <li class="contribution">
+                                Add the another contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                            <li class="contribution">
+                                Add the another contribution here: did x for project y and implemented z subsystem.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-container">
+                        <div id="slide-number" class="slide-number">Slide #6</div>
+                        <img src="assets\image1.jpg" alt="">
+                        <img src="assets\image2.jpg" alt="">
+                        <img src="assets\image3.jpg" alt="">
+                        <!-- ADD MORE IMAGES HERE -->
+                    </div>
+                    <div class="slider-controls">
+                        <span id="prev" class="prev">Previous</span>
+                        <span id="indicators" class="indicators"></span>
+                        <span id="next" class="next">Next</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
